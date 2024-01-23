@@ -6,7 +6,7 @@ const result = document.getElementById('result');
 const guessList = document.getElementById('guess-list');
 let answer;
 generateTheAnswer();
-const numberOfTries = 6;
+const numberOfTries = 10;
 let count = 0;
 let guessedNumbers = [];
 function generateTheAnswer() {
