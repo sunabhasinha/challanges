@@ -12,7 +12,8 @@ let guessedNumbers = [];
 function generateTheAnswer() {
 	answer = Math.floor(Math.random() * 100) + 1;
 }
-function handleSubmit() {
+function handleSubmit(e) {
+	e.preventDefault();
 	count++;
 	guessedNumbers.push(inputNumber.value);
 	guessList.textContent =
