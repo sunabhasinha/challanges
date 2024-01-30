@@ -6,9 +6,9 @@ body {
 }
 .challenge-box {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	gap: 16px;
+	flex-wrap: wrap;
+	gap: 9%;
 }
 
 .challenge-title {
